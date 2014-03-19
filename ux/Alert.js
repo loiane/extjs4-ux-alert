@@ -8,7 +8,6 @@ Ext.define('Ext.ux.Alert', {
             var me = this;
 
             function createBox (title, message, type) {
-                console.lo
                 return '<div class="msg ' + type + '">'+
                             '<button class="close">x</button>' +
                             '<h3>' + title + '</h3>' + 
