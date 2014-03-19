@@ -1,0 +1,43 @@
+h1. Ext.ux.Alert
+
+p. A closable div alert for ExtJS 4.2 apps.
+
+h2. Installation
+
+p. Place the folder ux in your project.
+
+h2. Usage
+
+p. In your application file, please add:
+
+bc.. Ext.Loader.setConfig({enabled: true});
+
+Ext.require([
+    'Ext.ux.Alert',
+]);
+
+p. 4 options to use
+
+bc.. var msg = 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut';
+	Ext.ux.Alert.success('Well done!', msg);
+	Ext.ux.Alert.warning('Warning!', msg);
+	Ext.ux.Alert.info('FYI!', msg);
+	Ext.ux.Alert.error('Error!', msg);
+
+p. Alternative: call method show passing the message type
+
+bc.. Ext.ux.Alert.show('title', msg, 'success');    	
+
+h2. Example
+
+p. Open example.html to see how to use it.
+
+h2. Authors
+
+p. Based on Sencha ExtJS example (http://docs.sencha.com/extjs/4.2.2/#!/example/menu/menus.html) 
+p. and https://github.com/fabiojpoli/Alert
+p. enhancements and closable option added by Loiane Groner (March 2014)
+
+h2. License
+
+p. MIT licence

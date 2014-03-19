@@ -1,0 +1,97 @@
+/** message box */
+.msg .x-box-mc {
+    font-size:14px;
+}
+#msg-div {
+    position:absolute;
+    left:35%;
+    top:10px;
+    width:350px;
+    z-index:20000;
+}
+#msg-div .msg{
+    border-radius: 8px;
+    -moz-border-radius: 8px;
+    -webkit-border-radius: 8px;
+    margin-top: 2px;
+    padding: 7px 15px;
+    color: #555;
+}
+#msg-div .msg h3 {
+    margin: 0 0 3px;
+    font-weight: bold;
+    font-size: 15px;
+}
+#msg-div .msg p {
+    margin: 0;
+}
+
+#msg-div .close {
+	position: relative;
+	top: -2px;
+	right: 0px;
+	line-height: 16px;
+}
+
+#msg-div .success {
+    background: #f3f8e6;
+    border: 1px solid #cee599;
+}
+
+#msg-div .warning {
+    background: #fffae6;
+    border: 1px solid #ffeb99;
+}
+
+#msg-div .info {
+    background: #e6f8fe;
+    border: 1px solid #99e5fa;
+}
+
+#msg-div .error {
+    background: #ffe6e6;
+    border: 1px solid #ff9999;
+}
+
+#msg-div .success h3 {
+    color: #84bd00;
+}
+
+#msg-div .warning h3 {
+    color: #ffcd00;
+}
+
+#msg-div .info h3 {
+    color: #00bdf2;
+}
+
+#msg-div .error h3 {
+    color: #ff0000;
+}
+
+.close {
+  float: right;
+  font-family: Arial, sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 16px;
+  color: #000000;
+  text-shadow: 0 1px 0 #ffffff;
+  opacity: 0.2;
+  filter: alpha(opacity=20);
+}
+.close:hover,
+.close:focus {
+  color: #000000;
+  text-decoration: none;
+  cursor: pointer;
+  opacity: 0.4;
+  filter: alpha(opacity=40);
+}
+button.close {
+  padding: 0;
+  cursor: pointer;
+  background: transparent;
+  border: 0;
+  -webkit-appearance: none;
+}
