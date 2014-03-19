@@ -1,5 +1,5 @@
 Ext.define('Ext.ux.Alert', {
-    singleton: true,
+
     statics : {
         msgCt : null,
 
